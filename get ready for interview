@@ -1,0 +1,25 @@
+There are two authentication modes:
+
+- Windows Mode
+- Mixed Mode
+
+SQL Profiler is a tool which allows system administrator to monitor events in the SQL server. 
+This is mainly used to capture and save data about each event of a file or a table for analysis.
+
+Local temporary tables are visible when there is a connection, and are deleted when the connection is closed.
+CREATE TABLE #<tablename>
+
+Global temporary tables are visible to all users, and are deleted when the connection that created it is closed.
+CREATE TABLE ##<tablename>
+
+What is CHECK constraint?
+A CHECK constraint can be applied to a column in a table to limit the values that can be placed in a column. 
+Check constraint is to enforce integrity.
+
+SQL server can be connected to any database which has OLE-DB provider to give a link. 
+Example: Oracle has OLE-DB provider which has link to connect with the SQL server group.
+
+
+
+
+
