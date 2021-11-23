@@ -19,6 +19,45 @@ Check constraint is to enforce integrity.
 SQL server can be connected to any database which has OLE-DB provider to give a link. 
 Example: Oracle has OLE-DB provider which has link to connect with the SQL server group.
 
+There are three types of sub query:
+
+Single row sub query which returns only one row
+Multiple row sub query which returns multiple rows
+Multiple column sub query which returns multiple columns to the main query. With that sub query result, Main query will be executed.
+
+MS SQL server agent:
+
+The SQL Server agent plays a vital role in day to day tasks of SQL server administrator(DBA). 
+Server agent’s purpose is to implement the tasks easily with the scheduler engine which allows our jobs to run at scheduled date and time.
+
+Scheduled tasks in SQL Server:
+
+Scheduled tasks or jobs are used to automate processes that can be run on a scheduled time at a regular interval. 
+This scheduling of tasks helps to reduce human intervention during night time and feed can be done at a particular time. 
+User can also order the tasks in which it has to be generated.
+
+COALESCE is used to return first non-null expression within the arguments. 
+This function is used to return a non-null from more than one column in the arguments.
+
+Example:
+
+Select COALESCE(empno, empname, salary) from employee;
+
+Exceptions are handled using TRY—-CATCH constructs and it is handles by writing scripts inside the TRY block and error handling in the CATCH block.
+
+FLOOR function is used to round up a non-integer value to the previous least integer. Example is given
+
+FLOOR(6.7)
+
+Yes, we can check locks in the database. 
+It can be achieved by using in-built stored procedure called sp_lock.
+
+
+
+
+
+
+
 
 
 
